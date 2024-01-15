@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.h1{
+    @apply   text-5xl  font-black text-white uppercase
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.h2{
+    @apply text-4xl font-bold  text-black
 }
+.h3{
+    @apply text-3xl font-bold  text-black
+}
+
+.h4{
+    @apply text-2xl font-bold  text-black
+}
+
+
+
+.h5{
+    @apply text-xl font-semibold text-black
+}
+
+.h6{
+    @apply text-lg font-semibold text-black
+}
+
+
